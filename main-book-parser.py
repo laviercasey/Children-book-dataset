@@ -146,7 +146,7 @@ def main():
     all_books = scrape_all_books()
     
     if all_books:
-        save_to_json(all_books, 'children_books_dataset2.json')
+        save_to_json(all_books, 'children_books_dataset.json')
         
         print("\nСтатистика:")
         print(f"Всего собрано книг: {len(all_books)}")
